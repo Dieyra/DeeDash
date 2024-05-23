@@ -5,6 +5,15 @@
 .text-orange {
   color: #ff7b10;
 }
+
+.email-btn{
+  
+  border: 1px solid #fff;
+  color: white;
+}
+.email-btn:hover{
+  background-color: #ff7b10; 
+}
 .text-darkBlue {
   background-color: #15355c;
 }
@@ -16,5 +25,5 @@
 
 :root {
   --primary-color: red;
-  --Secondary-color: indigo;
+  --Secondary-color: rgb(151, 125, 170);
 }
