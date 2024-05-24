@@ -7,13 +7,23 @@
 }
 
 .email-btn{
-  
   border: 1px solid #fff;
   color: white;
+
 }
 .email-btn:hover{
   background-color: #ff7b10; 
 }
+
+#footer-Email-Btn{
+  border: 1px solid #fff;
+  border-radius: 20px;
+  color: white;
+}
+#footer-Email-Btn:hover{
+  background-color: #ff7b10; 
+}
+
 .text-darkBlue {
   background-color: #15355c;
 }
@@ -26,4 +36,13 @@
 :root {
   --primary-color: red;
   --Secondary-color: rgb(151, 125, 170);
+}
+section .container .map-content {
+  margin-top: 10px;
+  padding-top: 2px;
+}
+
+section .container .map-content iframe {
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 74, 148, 0.1);
 }
