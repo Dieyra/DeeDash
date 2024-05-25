@@ -37,11 +37,11 @@ To set up the project locally, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/Cod3ddy/E-commerce-Web-Assignment.git
+    git clone https://github.com/Cod3ddy/DeeDash.git
     ```
 2. **Navigate to the project directory**:
     ```bash
-    cd E-commerce-Web-Assignment
+    cd DeeDash 
     ```
 
 ## Usage
