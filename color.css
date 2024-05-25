@@ -46,3 +46,28 @@ section .container .map-content iframe {
   border-radius: 10px;
   box-shadow: 0px 0px 20px 0px rgba(0, 74, 148, 0.1);
 }
+
+.ref-product{
+  /* add shadow */
+  /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); */
+  border-radius: 10px;
+  /* color: white; */
+  /* padding: 10px; */
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+
+.ref-products{
+  margin-top: 20px;
+}
+
+.ref-product .ref-media img{
+  width: 100%;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+}
+
