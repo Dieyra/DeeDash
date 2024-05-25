@@ -10,7 +10,6 @@ Welcome to DeeDash, a simple e-commerce website created for the Daeyang campus c
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Introduction
@@ -57,10 +56,6 @@ Contributions are welcome! If you'd like to contribute to DeeDash, please follow
 3. Commit your changes (`git commit -m 'Add some feature'`).
 4. Push to the branch (`git push origin feature-branch`).
 5. Create a new Pull Request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
