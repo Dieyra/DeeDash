@@ -175,7 +175,13 @@
         <h2>Our Top Categories</h2>
 
         <!-- get product list from reflow -->
-        <div class="row mx-auto" style="/*max-width: 700px;*/">
+
+        <div
+          data-reflow-type="category-list"
+          data-reflow-layout="horizontal-bar"
+          data-reflow-category-link="https://example.com/?category={id}"
+        ></div>
+        <div class="row mx-auto">
           <div class="col">
             <div
               data-reflow-type="product-list"
