@@ -122,94 +122,65 @@
       </div>
     </div>
 
-    <!-- Hero Section -->
-    <div class="container-fluid py-5 mb-5 hero-header">
-      <div class="container py-5">
-        <div class="row g-5 align-items-center">
-          <div class="col-md-12 col-lg-7">
-            <h1 class="mb-3 display-3 text-primary">Dee-Dash</h1>
-            <h4 class="mb-5 motto">
-              Trade Smarter. Your one-stop shop for campus
-            </h4>
+    <!-- Modal Search Start -->
+    <div
+      class="modal fade"
+      id="searchModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content rounded-0">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Search by keyword
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
           </div>
-          <div class="col-md-12 col-lg-5">
-            <div
-              id="carouselId"
-              class="carousel slide position-relative"
-              data-bs-ride="carousel"
-            >
-              <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active rounded">
-                  <img
-                    src="img/remake qr.jpg"
-                    class="img-fluid w-60 h-100 bg-secondary rounded"
-                    alt="First slide"
-                  />
-
-                  <!-- qr code -->
-                </div>
-                <div class="carousel-item rounded">
-                  <img
-                    src="img/hero-img-2.jpg"
-                    class="img-fluid w-100 h-100 rounded"
-                    alt="Second slide"
-                  />
-                  <a href="#" class="btn px-4 py-2 text-white rounded"
-                    >Shop what you like</a
-                  >
-                </div>
-              </div>
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselId"
-                data-bs-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselId"
-                data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Next</span>
-              </button>
+          <div class="modal-body d-flex align-items-center">
+            <div class="input-group w-75 mx-auto d-flex">
+              <input
+                type="search"
+                class="form-control p-3"
+                placeholder="keywords"
+                aria-describedby="search-icon-1"
+              />
+              <span id="search-icon-1" class="input-group-text p-3"
+                ><i class="fa fa-search"></i
+              ></span>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- Modal Search End -->
 
-    <!-- here section ends here -->
+    <!-- Single Page Header start -->
+    <div class="container-fluid page-header py-5">
+      <h1 class="text-center text-white display-6">Shop</h1>
+      <ol class="breadcrumb justify-content-center mb-0">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item active text-white">Shop</li>
+      </ol>
+    </div>
+    <!-- Single Page Header End -->
 
-    <!-- products section -->
-
-    <!-- section categories -->
+    <!-- products -->
     <section class="py-1">
       <div class="container py-5">
-        <h2 class="category-heading">Our Top Categories</h2>
+        <h2 class="category-heading">All Products</h2>
         <!-- get product list from reflow -->
-        <div
-          data-reflow-type="category-list"
-          data-reflow-category-link="./index.html?category={id}"
-          data-reflow-layout="horizontal-bar"
-          class="reflow-category"
-        ></div>
 
         <div class="row mx-auto">
           <div class="col">
             <div
               data-reflow-type="product-list"
-              data-reflow-perpage="8"
               data-reflow-layout="cards"
               data-reflow-order="date_desc"
               data-reflow-product-link="/product.html?product={id}"
@@ -219,6 +190,7 @@
       </div>
     </section>
 
+    <!-- reflow -->
     <!-- Footer  -->
     <div class="container-fluid custom-footer text-white-50 footer pt-5 mt-5">
       <div class="container py-5">
