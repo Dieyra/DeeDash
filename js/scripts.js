@@ -8,3 +8,7 @@ fEmailBtn.addEventListener("click", () => {
   // open the gmail app
   window.location.href = link;
 });
+
+const hiBtn = document.getElementById("hiBtn");
+
+// when the "click  here" button has been clicked
