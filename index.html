@@ -45,7 +45,7 @@
     <!-- custom css -->
     <link rel="stylesheet" href="css/color.css" />
 
-    <!-- reflow css -->
+    <!-- reflow css cdn (Content Delivery Network) -->
     <link rel="stylesheet" href="https://cdn.reflowhq.com/v2/toolkit.min.css" />
   </head>
 
@@ -61,6 +61,7 @@
 
     <!-- Navigation bar -->
     <div class="container-fluid fixed-top">
+      <!-- the top part -->
       <div class="container topbar bg-primary d-none d-lg-block">
         <div class="d-flex justify-content-between">
           <div class="top-info ps-2">
@@ -82,6 +83,8 @@
           </div>
         </div>
       </div>
+
+      <!-- the bottom part -->
       <div class="container px-0">
         <nav class="navbar navbar-light bg-white navbar-expand-xl">
           <a href="index.html" class="navbar-brand"
@@ -122,7 +125,9 @@
       </div>
     </div>
 
-    <!-- Hero Section -->
+    <!-- navigation bar end -->
+
+    <!-- Hero Section / Banner -->
     <div class="container-fluid py-5 mb-5 hero-header">
       <div class="container py-5">
         <div class="row g-5 align-items-center">
@@ -132,6 +137,8 @@
               Trade Smarter. Your one-stop shop for campus
             </h4>
           </div>
+
+          <!-- Carousel-->
           <div class="col-md-12 col-lg-5">
             <div
               id="carouselId"
@@ -145,9 +152,8 @@
                     class="img-fluid w-60 h-100 bg-secondary rounded"
                     alt="First slide"
                   />
-
-                  <!-- qr code -->
                 </div>
+
                 <div class="carousel-item rounded">
                   <img
                     src="img/hero-img-2.jpg"
@@ -188,12 +194,9 @@
         </div>
       </div>
     </div>
-
     <!-- here section ends here -->
 
     <!-- products section -->
-
-    <!-- section categories -->
     <section class="py-1">
       <div class="container py-5">
         <h2 class="category-heading">Our Top Categories</h2>
@@ -222,6 +225,7 @@
     <!-- Footer  -->
     <div class="container-fluid custom-footer text-white-50 footer pt-5 mt-5">
       <div class="container py-5">
+        <!-- our shop -->
         <div
           class="pb-4 mb-4"
           style="border-bottom: 1px solid rgba(226, 175, 24, 0.5)"
@@ -238,15 +242,18 @@
             </div>
             <div class="col-lg-3">
               <div class="d-flex justify-content-end pt-3">
-                <a
+                <button
+                  id="emailBtnFooter"
                   class="btn btn-outline-secondary me-2 btn-md-square rounded-circle"
-                  href=""
-                  ><i class="fa-solid fa-envelope" title="send email"></i
-                ></a>
+                  title="send email"
+                >
+                  <i class="fa-solid fa-envelope" title="send email"></i>
+                </button>
               </div>
             </div>
           </div>
         </div>
+        <!-- the info part haha -->
         <div class="row g-5">
           <div class="col-lg-3 col-md-6">
             <div class="d-flex flex-column text-start footer-item">
@@ -259,6 +266,8 @@
               <a class="btn-link" href="">FAQs & Help</a>
             </div>
           </div>
+
+          <!-- Designers section -->
           <div class="col-lg-3 col-md-6">
             <div class="d-flex flex-column text-start footer-item">
               <h4 class="text-light mb-3">Designed By</h4>
@@ -268,6 +277,8 @@
               <a class="btn-link" href="">Edward Chirwa</a>
             </div>
           </div>
+
+          <!-- reach us? -->
           <div class="col-lg-3 col-md-6">
             <div class="footer-item">
               <h4 class="text-light mb-3">Contact</h4>
@@ -322,5 +333,8 @@
     <!-- main js -->
 
     <script src="js/main.js"></script>
+
+    <!-- custom js -->
+    <script src="js/scripts.js"></script>
   </body>
 </html>

@@ -41,9 +41,3 @@
     return false;
   });
 })(jQuery);
-
-const catBtn = document.querySelector(".ref-categories .ref-category");
-
-window.addEventListener("DOMContentLoaded", () => {
-  catBtn.addEventListener("click", () => {});
-});
