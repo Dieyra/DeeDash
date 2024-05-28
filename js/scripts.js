@@ -1,9 +1,10 @@
 //footer email btn
 const fEmailBtn = document.getElementById("emailBtnFooter");
 
+// on button click
 fEmailBtn.addEventListener("click", () => {
-  const emailLink = `mailto:edwardchirwa07@gmail.com`;
+  const link = "mailto:edwarchirwa07@gmail.com";
 
-  //redirect user to the mailto link
-  window.location.href = emailLink;
+  // open the gmail app
+  window.location.href = link;
 });
