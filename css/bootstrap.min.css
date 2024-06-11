@@ -4127,6 +4127,8 @@ fieldset:disabled .btn {
 .card-group > .card {
   margin-bottom: 0.75rem;
 }
+
+/* change how many elements can be shown on the screen depending on the screen size */
 @media (min-width: 576px) {
   .card-group {
     display: flex;
